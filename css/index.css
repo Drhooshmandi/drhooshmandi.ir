@@ -1,0 +1,74 @@
+.navigation{
+    float: right;
+    direction: rtl;
+}
+
+.navigation li {
+    float: right !important;
+}
+
+@media only screen and (max-width: 768px){
+    .navigation{
+        display: flex;
+        flex-direction: column;
+        padding-right: 15px;
+    }
+}
+
+.info li{
+    text-align: right;
+    direction: rtl;
+}
+
+.dr_image,.zen,.students{
+    float: right;
+}
+
+@media only screen and (max-width: 768px){
+    .dr_image,.zen,.students{
+        float: none ;
+    }
+}
+
+.students{
+    display: flex;
+    text-align: right;
+    direction: rtl;
+}
+
+.social li {
+    display: flex;
+    flex-direction: row;
+}
+
+.social li h4{
+    margin: 0;
+    margin-left: 10px;
+}
+
+.bio{
+    text-align: right;
+    direction: rtl;
+}
+
+.daneshjo{
+    text-align: right;
+    direction: rtl;
+}
+
+.order_list{
+    width: 100%;
+    margin-top: 60px;
+    text-align: right;
+    direction: rtl;
+    padding: 15px;
+}
+
+.self_att li {
+    color: rgba(0,0,0,0.6);
+}
+
+.self_att li span,.self_att li i{
+    color: rgba(0,0,0,0.8);
+    margin: 5px;
+}
